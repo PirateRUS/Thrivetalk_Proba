@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@500;700&display=swap');
+
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+.body {
+	font-family: 'Hind';
+}
+
+.container {
+	max-width: 1130px;
+	margin: 0px auto;
+	padding: 0px 10px;
+}
+
+.header_bk {
+	background-color: #F4F9E2;
+}
+
+.header {
+	max-width: 1110px;
+	margin: 0px auto;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 0;
+
+}
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 250px;
+	font-size: 14px;
+	line-height: 16px;
+	color: #22356F;
+}
+
+.button_contact {
+	padding: 19px 30px 16px 30px;
+	font-size: 14px;
+	line-height: 16px;
+	color: #ffffff;
+	background-color: #62D0DF;
+	border-radius: 50px;
+}
+
+.top {
+	background-color: #F4F9E2;
+	max-height: 840px;
+}
+
+.flex {
+	display: flex;
+	justify-content: space-between;
+}
+
+.top_img {
+	max-width: 550px;
+}
+
+
+.top_text {
+	padding: 100px 0;
+	max-width: 565px;
+}
+
+.img_logo {
+	padding-bottom: 50px;
+}
+
+.button_orange {
+	padding: 19px 30px 16px 30px;
+	font-size: 16px;
+	line-height: 23px;
+	color: #ffffff;
+	background-color: #F9B640;
+	border-radius: 50px;
+}
+
+.button_orange_text {
+	margin-left: 30px;
+	padding: 19px 30px 16px 30px;
+	font-size: 16px;
+	line-height: 23px;
+	color: #F9B640;
+	background-color: #F4F9E2;
+	border-radius: 50px;
+}
+
+
+
+
+.text_h48_blue {
+	font-size: 48px;
+	line-height: 53px;
+	font-weight: 700;
+	color: #22356F;
+	text-align: justify;
+	max-width: 500px;
+}
+
+.text_h24_blue {
+	font-size: 24px;
+	line-height: 42px;
+	color: #22356F;
+	text-align: justify;
+	max-width: 500px;
+	padding: 70px 0;
+}
+
+.Why_Thrive_bacgraund {
+	background-color: #62D0DF;
+	max-height: 610px;
+}
+
+.text_h36_white {
+	padding-top: 150px;
+	font-size: 36px;
+	line-height: 27px;
+	letter-spacing: -0.006em;
+	color: #FFFFFF;
+}
+
+.text_h24_white {
+	padding-top: 75px;
+	font-size: 24px;
+	line-height: 35px;
+	color: #FFFFFF;
+	text-align: justify;
+	max-width: 500px;
+}
+
+.text_h20_white {
+	font-size: 20px;
+	line-height: 35px;
+	color: #FFFFFF;
+	text-align: justify;
+}
+
+.img_girl {
+	max-width: 100%;
+}
